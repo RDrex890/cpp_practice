@@ -40,8 +40,10 @@ int main( ) {
 	cout <<"Tax: $"<< TaxCost <<endl;
 	cout <<"========================================"<<endl;
 	
+	
+	const int estimateExpiry {30}; //days
 	cout <<"Total Estimate: $"<< Subtotal + TaxCost <<endl;
-	cout <<"This estimate is valid for 30 days." <<endl;
+	cout <<"This estimate is valid for "<< estimateExpiry <<endl;
 	
 	return 0;
 
